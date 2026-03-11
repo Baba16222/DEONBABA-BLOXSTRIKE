@@ -58,4 +58,3 @@
   Disconnect();end screenGui:Destroy();for _,player in pairs(Players:GetPlayers()) do local char=player.Character;if char then local hl=char:FindFirstChild("RainbowESP") 
   ;if hl then hl:Destroy();end local head=char:FindFirstChild("Head");if head then local bgu=head:FindFirstChild("ESPTag");if bgu then bgu:Destroy();end end end end print( 
   "Script destroyed.");end end);--// Source Code
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/twistedk1d/BloxStrike/refs/heads/main/Source/script.lua"))()
